@@ -3,7 +3,7 @@ import TodoTable from "../Components/TodoTable";
 
 const TodoList = () => {
   return (
-    <div className="bg-gradient-to-br from-purple-950 to-black h-screen">
+    <div className="bg-gradient-to-br from-purple-950 to-black h-full">
       <AddTodo />
       <TodoTable />
     </div>
